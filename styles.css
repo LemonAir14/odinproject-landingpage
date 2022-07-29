@@ -35,13 +35,57 @@ body {
     background:#1F2937;
     display:flex ;
     justify-content:center;
-    padding: 20px 40px 20px 40px;
+    padding: 80px 40px 20px 40px;
     
+}
+
+.firstsectionfirstpart {
+    width:300px;
+    display:flex;
+    flex-direction:column;
+    gap:8px
+
 }
 
 .awesomewebsite {
     color:#F9FAF8;
     font-size:48px;
-    font-weight:bold;
+    font-weight:900;
 }
 
+.awesomesubtext {
+    color:#E5E7EB;
+    font-size:18px
+}
+
+.button button {
+    padding:4px 16px 4px 16px;
+    background: #3882F6;
+    color:#E5E7EB;
+    font-size:16px;
+    font-weight:800;
+    border-radius:8px;
+    border:0px
+
+}
+
+.secondheader {
+    font-size:36px;
+    font-weight:900;
+    color:#1F2937;
+    display:flex;
+    justify-content:center;
+    margin:20px
+}
+
+.cards {
+    display:flex;
+    align-items:center;
+    justify-content:center
+
+}
+
+.cards img {
+    width:auto;
+    height:200px
+}
