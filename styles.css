@@ -35,7 +35,7 @@ body {
     background:#1F2937;
     display:flex ;
     justify-content:center;
-    padding: 80px 40px 20px 40px;
+    padding: 80px 40px 37.5px 40px;
     
 }
 
@@ -103,17 +103,51 @@ body {
     width:25%;
     text-align:center;
     color:#1F2937;
-    font-weight:light
+    font-weight:100;
+    font-size:18px
  }
 
  .thirdsection {
     background:#E5E7EB;
-    padding:20px 60px 20px 60px;
+    padding:119.25px 200px 119.25px 200px;
     display:flex;
     flex-direction:column;
     justify-content:center;
-    align-items:center
+    align-items:center;
+    gap:12px
  }
+
+ .quote {
+    font-size:36px;
+    font-style:italic;
+    font-weight:100;
+    color:#1F2937;
+ }
+
+ .quoteauthor {
+    font-size:18px;
+    font-weight:bold;
+    margin-left:75%
+ }
+
+ .fourthsection {
+    padding: 50px 100px 50px 100px;
+ }
+
+ .fourthsection .bluesection {
+    background:#3882F6;
+    padding:20px 40px 20px 40px;
+    color:white;
+    display:flex;
+    font-size:18px;
+
+ }
+
+ .bluesection .text .thirdheader {
+    font-weight:900;
+    
+ }
+ 
 
 
     
